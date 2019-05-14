@@ -1,4 +1,4 @@
-# shortest-path
+# shape数据python最短路径分析（shortest-path）
 参加的一个比赛的最短路径分析的Python代码，虽然没有获得好的名次 = =
 
 代码都在dijkstraPath文件中，加载的数据分别为为shapefile点和面数据读取方式为：
@@ -18,3 +18,5 @@ edge_shp_df = geopandas.GeoDataFrame.from_file(e_path) #读取edges.shp数据
 ---'from'字段：路径起点
 ---'to'字段：路径终点
 ---'maxtime'字段：该条路径消耗的最长时间
+
+

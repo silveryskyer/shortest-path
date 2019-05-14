@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 
 n_path = 'yourpath/nodes.shp' 
+
 node_shp_df = geopandas.GeoDataFrame.from_file(n_path) #读取nodes.shp数据                                                                                                                                                                                                         e_path = 'yourpath/edges.shp'
 edge_shp_df = geopandas.GeoDataFrame.from_file(e_path) #读取edges.shp数据
 
